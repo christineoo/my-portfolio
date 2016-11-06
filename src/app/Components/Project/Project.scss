@@ -1,6 +1,6 @@
 .project {
   color: #fff;
-  height: 400px;
+  min-height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +24,6 @@ $screen-large: 1200px;
 
 @media (min-width: 767px) {
   .project {
-    height: 800px;
     &.reverse, &.not-reverse {
       flex-direction: column;
     }
@@ -33,13 +32,12 @@ $screen-large: 1200px;
     }
   }
   .section-description {
-    width: 600px;
+    max-width: 600px;
   }
 }
 
 @media (min-width: 992px) {
   .project {
-    height: 400px;
     &.reverse {
       flex-direction: row-reverse;
     }
@@ -65,19 +63,18 @@ $screen-large: 1200px;
     }
   }
   .section-description {
-    width: 600px;
+    max-width: 600px;
   }
 }
 
 @media (min-width: 400px) and (max-width: $screen-small) {
   .project {
     flex-direction: column;
-    height: 700px;
     &.reverse, &.not-reverse {
       flex-direction: column;
     }
     .section-description {
-      width: 300px;
+      max-width: 300px;
     }
     img {
       width: 70%;

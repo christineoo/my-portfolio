@@ -13,14 +13,14 @@ const Project = ({data, i, reverse}) => {
             <img src={`${data.screenshotUrl}`}/>
             <div className="section-description" >
                 <h1>{data.title}</h1>
+                {githubRepoBtn}
+                {demoBtn}
                 <p>{data.description}</p>
                 <ul>
                     {data.technology.map((t) => {
                         return <li key={shortid.generate()}>{t}</li>
                     })}
                 </ul>
-                {githubRepoBtn}
-                {demoBtn}
             </div>
         </section>
     )
