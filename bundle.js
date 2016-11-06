@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "117383c91c51390d96c9"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "f65b4e5b298a547d5a3b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -31074,11 +31074,11 @@
 		}
 	}, {
 		"title": "Github Trends Chrome Extension",
-		"description": "Chrome extension application to view trending Github repository. This chrome extension auto loads whenever a new tab is open. User is able to select daily, weekly and monthly trending Github repository based on the predefined list of categories provided.",
+		"description": "Chrome extension application to view trending Github repository. This chrome extension auto loads whenever a new tab opens. User is able to select daily, weekly and monthly trending Github repository based on the predefined list of categories provided. There is also a random button that can randomly select any languages from the predefined list.",
 		"technology": ["AngularJS 1.x", "Angular Material"],
-		"screenshotUrl": "https://i.imgur.com/JZsNJzr.png",
+		"screenshotUrl": "https://i.imgur.com/izM3ZCE.png",
 		"links": {
-			"github": "",
+			"github": "https://github.com/christineoo/github-trends-chrome-extension",
 			"demo": ""
 		}
 	}, {
