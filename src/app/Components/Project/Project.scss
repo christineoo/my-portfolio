@@ -8,7 +8,14 @@
     margin: 20px;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.20);
   }
-
+  .section-description {
+    width: 500px;
+    margin: 0 100px;
+    p {
+      font-size: 1.25em;
+      line-height: 1.35em;
+    }
+  }
 }
 
 $screen-small: 767px;
