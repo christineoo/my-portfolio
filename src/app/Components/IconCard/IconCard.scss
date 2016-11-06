@@ -1,0 +1,31 @@
+.card {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  p {
+    text-transform: capitalize;
+  }
+}
+
+$screen-small: 767px;
+@media (min-width: 400px) and (max-width: $screen-small) {
+      .card {
+        width: 100px;
+        height: 100px;
+        flex-wrap: nowrap;
+        img {
+          width: 60px;
+          height: 60px;
+        }
+      }
+}

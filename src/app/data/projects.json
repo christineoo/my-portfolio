@@ -1,0 +1,76 @@
+[
+  {
+    "title": "Reddit Photo Gallery",
+    "description": "This is a photo gallery application to showcase images from selected subreddits from Reddit. Redux is use to store the state of the application. React toolbox which is a set of components that implements Google Material specification is used to style this project.",
+    "technology": [
+      "ReactJS",
+      "Redux",
+      "React Toolbox",
+      "React Photo Gallery",
+      "React Images"
+    ],
+    "screenshotUrl": "https://camo.githubusercontent.com/8fa6b0886193c922e6cd581ccaf55dd7ecb59be9/687474703a2f2f692e696d6775722e636f6d2f6a514659434f322e706e67",
+    "links": {
+      "github": "https://github.com/christineoo/reddit-gallery",
+      "demo": "http://christineoo.github.io/reddit-gallery/"
+    }
+  },
+  {
+    "title": "Github Trends Chrome Extension",
+    "description": "Chrome extension application to view trending Github repository. This chrome extension auto loads whenever a new tab is open. User is able to select daily, weekly and monthly trending Github repository based on the predefined list of categories provided.",
+    "technology": [
+      "AngularJS 1.x",
+      "Angular Material"
+    ],
+    "screenshotUrl": "https://i.imgur.com/JZsNJzr.png",
+    "links": {
+      "github": "",
+      "demo": ""
+    }
+  },
+  {
+    "title": "EmberJS + Ember Paper Boilerplate Project",
+    "description": "This sample application aims to serve as a boilerplate application for a typical web application written using EmberJS with Ember Paper. This sample application consists of a side navigation drawer and a content area. The side navigation drawer will be auto hidden when the webpage is resize.",
+    "technology": [
+      "EmberJS",
+      "Ember CLI",
+      "Ember Paper"
+    ],
+    "screenshotUrl": "https://i.imgur.com/Pv50qpO.png",
+    "links": {
+      "github": "https://github.com/christineoo/ember-paper-start",
+      "demo": "http://christineoo.github.io/ember-paper-start/#/home"
+    }
+  },
+  {
+    "title": "Ember Feed Reader",
+    "description": "RSS Feed reader that allows user to read RSS feed news. This project was built using Ember JS with Ember Paper and Firebase. Ember CLI was used to build and generate the initial project structure.",
+    "technology": [
+      "EmberJS",
+      "Ember CLI",
+      "Ember Paper",
+      "Firebase"
+    ],
+    "screenshotUrl": "https://camo.githubusercontent.com/72f167366ecfc3948c89d3ffa64f13b04ef8bb07/687474703a2f2f692e696d6775722e636f6d2f76433032496d382e706e67",
+    "links": {
+      "github": "https://github.com/christineoo/ember-reader",
+      "demo": "http://christineoo.github.io/ember-reader/"
+    }
+  },
+  {
+    "title": "[WIP] Weird Melon - Markdown blogging platform",
+    "description": "This is a work-in-progress blogging platform using markdown editor. It uses database and Github login provided by firebase. Currently, user is able to view blog posts and logged-in user is able to create new post and edit his/her posts. I am planning to include comments and bookmark features for this project.",
+    "technology": [
+      "ReactJS",
+      "Redux",
+      "ES6",
+      "Webpack",
+      "Firebase"
+    ],
+    "screenshotUrl": "http://i.imgur.com/x7fG6Cq.png",
+    "links": {
+      "github": "https://github.com/christineoo/weird-melon",
+      "demo": "https://weird-melon.firebaseapp.com"
+    }
+  }
+]

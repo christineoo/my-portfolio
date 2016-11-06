@@ -1,0 +1,41 @@
+.footer {
+  height: 100px;
+  display: flex;
+  background-color: #1c2645;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  //flex-direction: column;
+    a {
+      height: 70px;
+      padding: 10px;
+      border-bottom: 2px solid #1c2645;
+      &:hover {
+        border-bottom: 2px solid #66c577;
+      }
+    }
+    img {
+      width: 32px;
+      height: 32px;
+    }
+  .dummy {
+    width: 200px;
+  }
+  .copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    img {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+$screen-small: 767px;
+@media (min-width: 400px) and (max-width: $screen-small) {
+  .dummy{
+    display: none;
+  }
+}
