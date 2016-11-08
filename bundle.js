@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f65b4e5b298a547d5a3b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b9a53ef5fe06c34f91ff"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -720,7 +720,7 @@
 		}
 	}
 
-	/* WEBPACK VAR INJECTION */}.call(exports, "?http://0.0.0.0:3000"))
+	/* WEBPACK VAR INJECTION */}.call(exports, "?http://0.0.0.0:8080"))
 
 /***/ },
 /* 2 */
@@ -31103,7 +31103,7 @@
 		"title": "[WIP] Weird Melon - Markdown blogging platform",
 		"description": "This is a work-in-progress blogging platform using markdown editor. It uses database and Github login provided by firebase. Currently, user is able to view blog posts and logged-in user is able to create new post and edit his/her posts. I am planning to include comments and bookmark features for this project.",
 		"technology": ["ReactJS", "Redux", "ES6", "Webpack", "Firebase"],
-		"screenshotUrl": "http://i.imgur.com/x7fG6Cq.png",
+		"screenshotUrl": "https://i.imgur.com/x7fG6Cq.png",
 		"links": {
 			"github": "https://github.com/christineoo/weird-melon",
 			"demo": "https://weird-melon.firebaseapp.com"
