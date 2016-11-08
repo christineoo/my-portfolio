@@ -1,7 +1,7 @@
 {
-  "name": "react-resume",
+  "name": "react-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "SPA to showcase personal projects",
   "main": "index.js",
   "scripts": {
     "start": " webpack-dev-server --config webpack.config.js --hot --progress --inline --colors",
