@@ -8,18 +8,19 @@ var ROOT_DIR = path.resolve(__dirname, 'src');
 var config = {
     devTools: 'source-map',
 
-    entry: [
-        'webpack-dev-server/client?http://0.0.0.0:8080', // WebpackDevServer host and port
-        'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
+    entry: getEntrySources([
         APP_DIR + '/index.jsx',
         ROOT_DIR + '/index.html'
 
-    ],
+    ]),
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js'
     },
     plugins: [
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+        }),
         new webpack.HotModuleReplacementPlugin()
     ],
     module: {
@@ -56,5 +57,13 @@ var config = {
       ]
     }
 };
+
+function getEntrySources(sources) {
+    if (process.env.NODE_ENV !== 'production') {
+        sources.push('webpack-dev-server/client?http://localhost:8080');
+        sources.push('webpack/hot/only-dev-server');
+    }
+    return sources;
+}
 
 module.exports = config;
