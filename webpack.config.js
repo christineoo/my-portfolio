@@ -29,7 +29,7 @@ var config = {
           {
               test: /\.jsx?/,
               include: APP_DIR,
-              loader: 'babel'
+              loaders: ['react-hot', 'babel'],
           },
           {
               test: /\.html$/,
@@ -37,9 +37,7 @@ var config = {
           },
           {
               test: /\.scss$/,
-              loaders: [
-                  'style', 'css?sourceMap', 'sass?sourceMap'
-              ]
+              loader: ExtractTextPlugin.extract('style', 'css!sass')
           },
           {
               test: /\.json$/,
@@ -62,7 +60,6 @@ var config = {
 function getEntrySources(sources) {
     if (process.env.NODE_ENV !== 'production') {
         sources.push('webpack-dev-server/client?http://localhost:8080');
-        sources.push('webpack/hot/only-dev-server');
     }
     return sources;
 }
